@@ -21,4 +21,5 @@ right_list.sort()
 # 총 거리 계산
 answer = sum(abs(left - right) for left, right in zip(left_list, right_list))
 
+# 정답 출력
 print(answer)
